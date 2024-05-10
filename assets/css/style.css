@@ -1,0 +1,56 @@
+/*#################################### 
+###########  Home Banner #############
+####################################*/
+
+#home-banner {
+  background-image: url(../images/home-banner.png);
+  background-repeat: no-repeat;
+  width: 100%; 
+}
+
+
+#home-banner .home-banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px; 
+}
+
+
+#about-section{
+  
+}
+.card-hover-effect{
+  transition: all 0.3s ease-in-out; 
+  border-bottom: 5px solid #fff;
+}
+.card-hover-effect:hover{
+  border-bottom: 5px solid #45C76F;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 6.34px 28.19px 0px #45c76f3b;
+}
+
+.card-hover-effect:hover h4{
+  color:#45C76F;
+}
+.card-hover-effect:hover .card-svg-img{
+  fill:#45C76F;
+}
+/*#################################### 
+###########  Home Banner #############
+####################################*/
+ 
+
+
+
+
+/*#################################### 
+###########  About Page ###########
+####################################*/
+
+
+
+/*#################################### 
+###########  About Page ############
+####################################*/
