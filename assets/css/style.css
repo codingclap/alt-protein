@@ -5,7 +5,7 @@
 #home-banner {
   background-image: url(../images/home-banner.png);
   background-repeat: no-repeat;
-  width: 100%; 
+  width: 100%;
 }
 
 
@@ -14,40 +14,45 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px; 
+  height: 700px;
 }
 
 
-.bg-elements img:first-child{
+.bg-elements img:first-child {
   top: 220px;
   width: 250px;
 }
-.bg-elements img:last-child{
+
+.bg-elements img:last-child {
   top: 450px;
   width: 250px;
 }
-.card-hover-effect{
-  transition: all 0.3s ease-in-out; 
-  border-bottom: 5px solid #fff; 
+
+.card-hover-effect {
+  transition: all 0.3s ease-in-out;
+  border-bottom: 5px solid #fff;
   z-index: +1;
 }
-.card-hover-effect:hover{
+
+.card-hover-effect:hover {
   border-bottom: 5px solid #45C76F;
   transition: all 0.3s ease-in-out;
   background-color: #fff;
   box-shadow: 0px 6.34px 28.19px 0px #45c76f3b;
 }
 
-.card-hover-effect:hover h4{
-  color:#45C76F;
+.card-hover-effect:hover h4 {
+  color: #45C76F;
 }
-.card-hover-effect:hover .card-svg-img{
-  fill:#45C76F;
+
+.card-hover-effect:hover .card-svg-img {
+  fill: #45C76F;
 }
+
 /*#################################### 
 ###########  Home Banner #############
 ####################################*/
- 
+
 
 
 
@@ -56,7 +61,56 @@
 ###########  About Page ###########
 ####################################*/
 
+.research-insights .research-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #348C4F;
+}
 
+
+.research-insights .research-elements .research-content {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+}
+
+
+.research-insights .research-elements .research-image {
+  width: 40%;
+}
+.research-insights .research-elements .research-content .research-icon{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  background-color: #45C76F;
+  border-radius: 20px;
+}
+
+.research-content .research-icon .image-box{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+@media (max-width:1023px) {
+  .research-insights .research-elements{
+    flex-wrap: wrap;
+  }
+  .research-insights .research-elements .research-content {
+    width: 100%;
+  }
+
+
+  .research-insights .research-elements .research-image {
+    width: 100%;
+  }
+}
 
 /*#################################### 
 ###########  About Page ############
