@@ -57,9 +57,9 @@
 
 
 
-/*#################################### 
-###########  About Page ###########
-####################################*/
+/*####################################### 
+###########  research Section ###########
+########################################*/
 
 .research-insights .research-elements {
   display: flex;
@@ -73,14 +73,15 @@
   width: 60%;
   display: flex;
   justify-content: center;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 
 .research-insights .research-elements .research-image {
   width: 40%;
 }
-.research-insights .research-elements .research-content .research-icon{
+
+.research-content .research-icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -90,7 +91,7 @@
   border-radius: 20px;
 }
 
-.research-content .research-icon .image-box{
+.research-content .research-icon .image-box {
   height: 100px;
   width: 100px;
   display: flex;
@@ -99,9 +100,10 @@
 }
 
 @media (max-width:1023px) {
-  .research-insights .research-elements{
+  .research-insights .research-elements {
     flex-wrap: wrap;
   }
+
   .research-insights .research-elements .research-content {
     width: 100%;
   }
@@ -112,6 +114,168 @@
   }
 }
 
-/*#################################### 
-###########  About Page ############
-####################################*/
+/*######################################## 
+###########  research Section ############
+##########################################*/
+
+
+
+
+
+/*######################################## 
+######### Challenges  Section ############
+##########################################*/
+.challenges-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  gap: 9px;
+}
+.challenges-items p{
+  width: 100%;
+  width: 175px;
+}
+.challenges-items.child-1 {
+  border-left: 1px solid #A4A4A4;
+  border-bottom: 1px solid #A4A4A4;
+  position: relative;
+}
+
+.challenges-items.child-1:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-image:url('../images/circle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: +99;
+}
+
+.challenges-items.child-2 {
+  border-left: 1px solid #A4A4A4;
+  border-right: 1px solid #A4A4A4;
+  border-bottom: 1px solid #A4A4A4;
+  position: relative;
+}
+.challenges-items.child-2:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-image:url('../images/circle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: +99;
+}
+.challenges-items.child-3 {
+  border-right: 1px solid #A4A4A4;
+  border-bottom: 1px solid #A4A4A4;
+  position: relative;
+}
+.challenges-items.child-3:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-image:url('../images/circle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: +99;
+}
+.challenges-items.child-4 {
+  border-bottom: 1px solid #A4A4A4;
+}
+
+.challenges-items.child-5 {
+  border-left: 1px solid #A4A4A4;
+  position: relative;
+}
+.challenges-items.child-5:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  background-image:url('../images/circle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: +99;
+}
+.challenges-items.child-5:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-image:url('../images/circle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: +99;
+}
+.challenges-items.child-6 {
+  border-right: 1px solid #A4A4A4;
+  border-left: 1px solid #A4A4A4;
+}
+
+.challenges-items.child-7 {
+  border-right: 1px solid #A4A4A4;
+  position: relative;
+}
+.challenges-items.child-7:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 30px;
+  height: 30px;
+  background-image:url('../images/circle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: +99;
+}
+.challenges-items.child-7:after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-image:url('../images/circle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: +99;
+}
+@media(max-width:1200px){
+  .challenges-items p{
+    width: 100%;
+    width: 155px;
+  }
+}
+/*######################################## 
+######### Challenges Section ############
+##########################################*/
+
+
+/*######################################## 
+######### Solution Section ############
+##########################################*/
+
+.solutions{
+  background-color: #45C76F;
+}
+
+
+
+/*######################################## 
+######### Solution Section ############
+##########################################*/
