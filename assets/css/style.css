@@ -18,15 +18,6 @@
 }
 
 
-.bg-elements img:first-child {
-  top: 220px;
-  width: 250px;
-}
-
-.bg-elements img:last-child {
-  top: 450px;
-  width: 250px;
-}
 
 .card-hover-effect {
   transition: all 0.3s ease-in-out;
