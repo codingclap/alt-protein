@@ -131,11 +131,14 @@
 
 
 /***********  Font size ********/
-[data-font-size="18px"] {
-    font-size: 18px;
+[data-font-size="14px"] {
+    font-size: 14px;
 }
 [data-font-size="16px"] {
     font-size: 16px;
+}
+[data-font-size="18px"] {
+    font-size: 18px;
 }
 [data-font-size="19px"] {
     font-size: 19px;

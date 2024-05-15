@@ -132,10 +132,12 @@
   height: 125px;
   gap: 9px;
 }
-.challenges-items p{
+
+.challenges-items p {
   width: 100%;
   width: 175px;
 }
+
 .challenges-items.child-1 {
   border-left: 1px solid #A4A4A4;
   border-bottom: 1px solid #A4A4A4;
@@ -149,7 +151,7 @@
   right: -15px;
   width: 30px;
   height: 30px;
-  background-image:url('../images/circle.png');
+  background-image: url('../images/circle.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: +99;
@@ -161,6 +163,7 @@
   border-bottom: 1px solid #A4A4A4;
   position: relative;
 }
+
 .challenges-items.child-2:after {
   content: "";
   position: absolute;
@@ -168,16 +171,18 @@
   right: -15px;
   width: 30px;
   height: 30px;
-  background-image:url('../images/circle.png');
+  background-image: url('../images/circle.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: +99;
 }
+
 .challenges-items.child-3 {
   border-right: 1px solid #A4A4A4;
   border-bottom: 1px solid #A4A4A4;
   position: relative;
 }
+
 .challenges-items.child-3:after {
   content: "";
   position: absolute;
@@ -185,11 +190,12 @@
   right: -15px;
   width: 30px;
   height: 30px;
-  background-image:url('../images/circle.png');
+  background-image: url('../images/circle.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: +99;
 }
+
 .challenges-items.child-4 {
   border-bottom: 1px solid #A4A4A4;
 }
@@ -198,6 +204,7 @@
   border-left: 1px solid #A4A4A4;
   position: relative;
 }
+
 .challenges-items.child-5:before {
   content: "";
   position: absolute;
@@ -205,11 +212,12 @@
   left: -15px;
   width: 30px;
   height: 30px;
-  background-image:url('../images/circle.png');
+  background-image: url('../images/circle.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: +99;
 }
+
 .challenges-items.child-5:after {
   content: "";
   position: absolute;
@@ -217,11 +225,12 @@
   right: -15px;
   width: 30px;
   height: 30px;
-  background-image:url('../images/circle.png');
+  background-image: url('../images/circle.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: +99;
 }
+
 .challenges-items.child-6 {
   border-right: 1px solid #A4A4A4;
   border-left: 1px solid #A4A4A4;
@@ -231,6 +240,7 @@
   border-right: 1px solid #A4A4A4;
   position: relative;
 }
+
 .challenges-items.child-7:before {
   content: "";
   position: absolute;
@@ -238,11 +248,12 @@
   left: -15px;
   width: 30px;
   height: 30px;
-  background-image:url('../images/circle.png');
+  background-image: url('../images/circle.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: +99;
 }
+
 .challenges-items.child-7:after {
   content: "";
   position: absolute;
@@ -250,17 +261,19 @@
   right: -15px;
   width: 30px;
   height: 30px;
-  background-image:url('../images/circle.png');
+  background-image: url('../images/circle.png');
   background-position: center;
   background-repeat: no-repeat;
   z-index: +99;
 }
-@media(max-width:1200px){
-  .challenges-items p{
+
+@media(max-width:1200px) {
+  .challenges-items p {
     width: 100%;
     width: 155px;
   }
 }
+
 /*######################################## 
 ######### Challenges Section ############
 ##########################################*/
@@ -270,11 +283,65 @@
 ######### Solution Section ############
 ##########################################*/
 
-.solutions{
+.solutions {
   background-color: #45C76F;
 }
 
+.solution-card .card-details {
+  background-color: #fff;
+  min-height: 250px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  border-radius: 0px 0px 20px 20px
+}
 
+.read-more-btn {
+  border: 1px solid #CED7DD;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 200px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.read-more-btn .read-text {
+  max-width: 78px;
+  transition: all 0.3s ease-in-out;
+}
+
+.read-more-btn .read-image {
+  margin-right: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+.read-more-btn:hover {
+  border: 1px solid #45c76f;
+  transition: all 0.3s ease-in-out;
+}
+
+.read-more-btn:hover .read-text {
+  color: #45c76f;
+  transition: all 0.3s ease-in-out;
+}
+.read-more-btn:hover .read-image{
+  animation:arrowmove 0.5s ease-in-out;
+}
+
+.read-more-btn:hover .read-image path {
+  fill: #45c76f;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes arrowmove {
+  100%{ transform: translateX(-1px);}
+  60%{transform: translateX(-5px);}
+  40%{transform: translateX(-10px);}
+  20%{transform: translateX(-13px);}
+  0%{transform: translateX(0px);}
+}
 
 /*######################################## 
 ######### Solution Section ############
