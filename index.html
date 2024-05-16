@@ -87,27 +87,62 @@
     <!------------ Home banner -------------->
 
     <style>
-        .bg-elements img:first-child {
-            top: 220px;
+        .bg-elements1 img:first-child {
+            top: 200px;
             width: 250px;
         }
 
-        .bg-elements img:last-child {
+        .bg-elements1 img:last-child {
             top: 450px;
-            width: 250px;
+            width: 220px;
         }
     </style>
     <!------------ About Section -------------->
     <div class="sticky-container position-relative">
 
         <!-------- PDF Button -------->
-        <div class="pdf position-sticky top-0 py-5" style="float:right;">
-            <a href="" style="background-color: blue;height:100px;width:100px;padding:10px 20px;">click</a>
+        <div class="stick-btns-container position-fixed top-0 py-5" style="visibility: hidden;">
+
+            <div class="pdf-stick-btn">
+                <div class="icon">
+                    <svg width="80" height="78" viewBox="0 0 101 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect class="pdf-react1" width="101" height="98" rx="49" transform="matrix(-1 0 0 1 101 0)"
+                            fill="#45C76F" />
+                        <circle cx="45.5" cy="45.5" r="45.5" transform="matrix(-1 0 0 1 96 3)" fill="#45C76F" />
+                        <g clip-path="url(#clip0_1066_302)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M58.5358 69H34.0639C33.6993 69.0022 33.3379 68.932 33.0006 68.7934C32.6633 68.6549 32.3569 68.4508 32.0991 68.193C31.8412 67.9352 31.6372 67.6287 31.4986 67.2914C31.3601 66.9542 31.2899 66.5927 31.2921 66.2281V38.732C31.2904 38.6612 31.3159 38.5924 31.3632 38.5397C31.4105 38.487 31.4762 38.4544 31.5468 38.4484H37.4655C39.2624 38.4484 40.7725 36.9367 40.7725 35.1414V29.282C40.771 29.2119 40.7962 29.1439 40.8428 29.0915C40.8895 29.0392 40.9543 29.0065 41.0241 29H58.5358C59.269 29.0063 59.9704 29.3004 60.4888 29.8189C61.0073 30.3373 61.3014 31.0387 61.3077 31.7719V40.4961C61.3012 40.5662 61.2682 40.6312 61.2156 40.6779C61.1629 40.7246 61.0945 40.7495 61.0241 40.7477H56.9296C56.8551 40.7474 56.7813 40.762 56.7124 40.7904C56.6435 40.8189 56.581 40.8606 56.5283 40.9134C56.4757 40.9661 56.434 41.0287 56.4056 41.0976C56.3773 41.1665 56.3629 41.2403 56.3632 41.3148V54.0711C56.3632 54.2273 56.2686 54.3547 56.1108 54.3547H52.4889C50.946 54.3547 50.2233 56.2438 51.1343 57.4094C53.9374 61.0633 56.7093 64.8422 59.5718 68.4328C59.9499 68.9055 58.753 69 58.5319 69H58.5358ZM52.4889 55.457C51.8593 55.457 51.6389 56.307 52.0163 56.7477C54.9139 60.5625 57.9061 64.3383 60.8038 68.1812C61.0561 68.5273 61.4968 68.5273 61.7491 68.1812C64.678 64.3703 67.6085 60.525 70.5358 56.7477C70.8827 56.2789 70.6921 55.457 70.0671 55.457H65.4968C65.4222 55.4573 65.3483 55.4429 65.2793 55.4145C65.2104 55.3861 65.1477 55.3443 65.095 55.2916C65.0423 55.2389 65.0005 55.1762 64.9721 55.1073C64.9437 55.0383 64.9293 54.9644 64.9296 54.8898V42.1336C64.9321 42.0999 64.9274 42.066 64.9157 42.0344C64.9039 42.0027 64.8855 41.9739 64.8616 41.95C64.8377 41.9261 64.8089 41.9077 64.7772 41.8959C64.7456 41.8842 64.7117 41.8795 64.678 41.882H57.7491C57.7153 41.8793 57.6814 41.884 57.6496 41.8957C57.6178 41.9073 57.589 41.9258 57.565 41.9497C57.541 41.9736 57.5225 42.0024 57.5107 42.0342C57.4989 42.0659 57.4942 42.0998 57.4968 42.1336V54.8898C57.4971 54.9644 57.4826 55.0383 57.4542 55.1073C57.4258 55.1762 57.3841 55.2389 57.3313 55.2916C57.2786 55.3443 57.2159 55.3861 57.147 55.4145C57.078 55.4429 57.0041 55.4573 56.9296 55.457H52.4889ZM32.2999 36.9367L39.2608 30.0078C39.4171 29.8187 39.7014 29.9445 39.7014 30.1969V35.1414C39.6994 35.7339 39.4632 36.3015 39.0443 36.7205C38.6255 37.1395 38.058 37.3759 37.4655 37.3781H32.4889C32.4385 37.3766 32.3896 37.3606 32.3479 37.3322C32.3063 37.3038 32.2736 37.2641 32.2537 37.2177C32.2339 37.1713 32.2277 37.1202 32.2358 37.0705C32.244 37.0207 32.2662 36.9743 32.2999 36.9367ZM38.3155 49.5352C37.6225 49.5352 37.6225 48.4648 38.3155 48.4648H47.1663C47.8593 48.4648 47.8593 49.5352 47.1663 49.5352H38.3155ZM38.3155 55.3945C37.6225 55.3945 37.6225 54.3234 38.3155 54.3234H47.1663C47.8593 54.3234 47.8593 55.3945 47.1663 55.3945H38.3155ZM38.3155 61.2539C37.6225 61.2539 37.6225 60.2141 38.3155 60.2141H47.1663C47.8593 60.2141 47.8593 61.2539 47.1663 61.2539H38.3155Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1066_302">
+                                <rect class="pdf-react2" width="40" height="40" fill="white"
+                                    transform="translate(31 29)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </div>
+                <span font-family="OpenSans-SemiBold">Download Report</span>
+            </div>
+            <div class="contact-stick-btn">
+                <div class="icon">
+                    <svg width="80" height="78" viewBox="0 0 99 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="99" height="98" rx="49" transform="matrix(-1 0 0 1 99 0)" fill="#1780CE" />
+                        <path
+                            d="M70.8671 58.5291L64.4789 54.0658C63.6435 53.4832 62.6671 53.176 61.6545 53.176C60.0445 53.176 58.5331 53.9656 57.6125 55.2868L56.1296 57.412C53.6442 55.7452 50.8709 53.4177 48.2271 50.7744C45.5838 48.1311 43.2568 45.3578 41.5904 42.8724L43.7147 41.3895C44.7976 40.6355 45.5207 39.5059 45.7504 38.2098C45.9796 36.9146 45.6907 35.606 44.9357 34.5226L40.4734 28.1344C39.5403 26.7998 38.0347 26.0024 36.4454 26.0024C35.8946 26.0024 35.3544 26.0997 34.8402 26.2894C34.2561 26.5051 33.7121 26.7699 33.1786 27.105L32.2965 27.7261C32.076 27.8975 31.8709 28.0853 31.6744 28.2818C30.5983 29.3574 29.8347 30.719 29.4038 32.329C27.565 39.2219 32.1203 49.6449 40.7387 58.2633C47.9763 65.5008 56.6712 69.9969 63.4297 69.9978C64.5872 69.9978 65.6787 69.863 66.6734 69.5972C68.2835 69.1668 69.6451 68.4032 70.7217 67.3266C70.9172 67.1311 71.104 66.926 71.3043 66.667L71.9259 65.7801C72.2297 65.2948 72.494 64.7507 72.7126 64.1623C73.4642 62.1305 72.7054 59.8136 70.8671 58.5291Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <span font-family="OpenSans-SemiBold">Contact Us</span>
+            </div>
+
+
         </div>
         <!-------- PDF Button -------->
 
         <section id="about-section" class="py-5 my-2">
-            <div class="bg-elements position-relative w-100">
+            <div class="bg-elements1 position-relative w-100">
                 <img class="position-absolute start-0" src="assets/images/ripple_brightGree-left.png" alt="">
                 <img class="position-absolute end-0" src="assets/images/ripple_brightGree-right.png" alt="">
             </div>
@@ -375,7 +410,8 @@
         <!----------- Challenges and Opportunities ----------->
         <section id="challenges-opportunitie" class="challenges-opportunitie py-5 mb-5">
             <div class="container">
-                <h2 class="display-5 text-center pb-1 pb-md-5" data-color="black-1" font-family="Barlow-Bold">Challenges and
+                <h2 class="display-5 text-center pb-1 pb-md-5" data-color="black-1" font-family="Barlow-Bold">Challenges
+                    and
                     Opportunities</h2>
                 <div class="row pt-3 pt-md-5 justify-content-center">
                     <div class="col-12 col-lg-3 px-0">
@@ -472,22 +508,22 @@
         <!----------- Solutions ----------->
         <section id="solutions" class="solutions py-5">
             <style>
-                .bg-elements img:first-child {
+                .bg-elements2 img:first-child {
                     top: 20px;
                     width: 250px;
                 }
 
-                .bg-elements img:last-child {
+                .bg-elements2 img:last-child {
                     top: 120px;
                     right: 200px;
                     width: 88px;
                 }
             </style>
-            <div class="bg-elements position-relative w-100">
+            <div class="bg-elements2 position-relative w-100">
                 <img class="position-absolute start-0" src="assets/images/solution-bg-2.png" alt="">
                 <img class="position-absolute" src="assets/images/solution-bg-1.png" alt="">
             </div>
-            <div class="container py-4">
+            <div class="container py-4 position-relative">
                 <h2 class="display-5 text-center pb-3" data-color="txt-white" font-family="Barlow-Bold">Solutions</h2>
                 <p class="text-center" font-family="OpenSans-Bold" data-font-size="16px" data-color="txt-white"> How
                     Plant-Based Alt Protein Can Generate Co-Benefits</p>
@@ -618,7 +654,7 @@
         <!----------- Solutions ----------->
 
         <!----------- Architects ----------->
-        <section id="architects" class="architects py-5">
+        <section id="architects" class="architects py-5 position-relative">
             <div class="container py-5">
                 <div class="row align-items-center justify-content-between row-gap-3" style="row-gap:4em;">
                     <div class="col-12 col-lg-5">
@@ -632,29 +668,40 @@
                             shaping a food system grounded in dignity, justice, and sustainability</p>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="architects-images-container d-flex justify-content-between justify-content-lg-evenly gap-4 align-items-center">
+                        <div
+                            class="architects-images-container d-flex justify-content-between justify-content-lg-evenly gap-4 align-items-center">
                             <div class="architects-image d-flex justify-content-between align-items-center flex-column"
                                 data-bgcolor="txt-green">
                                 <div class="architects-text text-center px-3">
-                                    <h4 data-color="txt-white" data-font-size="18px" font-family="OpenSans-Bold">Laura Driscoll</h4>
-                                    <p class="pt-2" data-color="txt-white" data-font-size="13px" font-family="OpenSans-SemiBold">Research Director
+                                    <h4 data-color="txt-white" data-font-size="18px" font-family="OpenSans-Bold">Laura
+                                        Driscoll</h4>
+                                    <p class="pt-2" data-color="txt-white" data-font-size="13px"
+                                        font-family="OpenSans-SemiBold">Research Director
                                         Stray Dog Institute
                                         Co-Author</p>
+
                                 </div>
 
                                 <img src="assets/images/laura.png" class="w-100" alt="laura">
                             </div>
-                            <div class="architects-image d-flex justify-content-between align-items-center flex-column position-relative"
+                            <img src="assets/images/wave-lines-blue.png" class="position-absolute wave-line-blue"
+                                alt="">
+
+                            <div class="architects-image d-flex justify-content-between align-items-center flex-column"
                                 data-bgcolor="blue">
                                 <div class="architects-text text-center px-3">
-                                    <h4 data-color="txt-white" data-font-size="18px" font-family="OpenSans-Bold">Lauren Kohler</h4>
-                                    <p class="pt-2" data-color="txt-white" data-font-size="13px" font-family="OpenSans-SemiBold">Director of Food Systems
+                                    <h4 data-color="txt-white" data-font-size="18px" font-family="OpenSans-Bold">Lauren
+                                        Kohler</h4>
+                                    <p class="pt-2" data-color="txt-white" data-font-size="13px"
+                                        font-family="OpenSans-SemiBold">Director of Food Systems
                                         Philanthropy Stray Dog Institute
                                         Co-Author
                                     </p>
                                 </div>
                                 <img src="assets/images/lauren.png" class="w-100" alt="lauren">
                             </div>
+                            <img src="assets/images/wave-lines-green.png" class="position-absolute wave-line-green"
+                                alt="">
                         </div>
 
                     </div>
@@ -670,8 +717,22 @@
 
 
 
+    <script>
+        const positionSpan = document.getElementById('position');
+        window.addEventListener('scroll', function() {
+            let sticky_btn = document.querySelector('.stick-btns-container');
+            if(window.pageYOffset >=930){
+                
+                sticky_btn.style.visibility="visible";
+                console.log(sticky_btn);
+            }else{
+                sticky_btn.style.visibility="hidden";
+            }
+        });
+    
 
 
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>

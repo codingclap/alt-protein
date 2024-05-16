@@ -265,67 +265,68 @@
   }
 }
 
-@media(max-width:768px){
+@media(max-width:991px) {
   .challenges-items.child-1 {
     border-left: 0px solid #A4A4A4;
   }
-  
+
   .challenges-items.child-1:after {
-    background-image:none; 
+    background-image: none;
   }
-  
+
   .challenges-items.child-2 {
     border-left: 0px solid #A4A4A4;
-    border-right: 0px solid #A4A4A4; 
+    border-right: 0px solid #A4A4A4;
   }
-  
+
   .challenges-items.child-2:after {
-    background-image:none; 
+    background-image: none;
   }
-  
+
   .challenges-items.child-3 {
-    border-right: 0px solid #A4A4A4; 
+    border-right: 0px solid #A4A4A4;
     position: relative;
   }
-  
+
   .challenges-items.child-3:after {
-    background-image:none; 
+    background-image: none;
   }
-  
-   
-  
+
+
+
   .challenges-items.child-5 {
-    border-left: 0px solid #A4A4A4; 
+    border-left: 0px solid #A4A4A4;
     border-bottom: 1px solid #A4A4A4;
   }
-  
+
   .challenges-items.child-5:before {
-    background-image:none; 
+    background-image: none;
   }
-  
-  .challenges-items.child-5:after { 
-    background-image:none; 
+
+  .challenges-items.child-5:after {
+    background-image: none;
   }
-  
+
   .challenges-items.child-6 {
     border-bottom: 1px solid #A4A4A4;
     border-right: 0px solid #A4A4A4;
     border-left: 0px solid #A4A4A4;
   }
-  
+
   .challenges-items.child-7 {
     border-bottom: 1px solid #A4A4A4;
-    border-right: 0px solid #A4A4A4; 
+    border-right: 0px solid #A4A4A4;
   }
-  
+
   .challenges-items.child-7:before {
     background-image: none;
   }
-  
-  .challenges-items.child-7:after { 
+
+  .challenges-items.child-7:after {
     background-image: none;
   }
 }
+
 /*######################################## 
 ######### Challenges Section ############
 ##########################################*/
@@ -421,22 +422,127 @@
 
 .architects {
   background-color: #F5F5F5;
-  min-height: 800px;
+  min-height: 900px;
 }
 
-.architects-images-container .architects-image { 
+.architects-images-container .architects-image {
   border-radius: 150px;
   padding: 4em 0px 0px 0px;
   min-height: 580px;
   width: 100%;
   max-width: 250px;
+  z-index: +1;
 }
-.architects-image:nth-child(2){
-  top:3em;
+
+.architects-image:nth-child(2) {
+  top: 4em;
 }
-.architects-images-container .architects-image img{
+
+.architects-images-container .architects-image img {
   border-radius: 150px;
 }
+
+.architects-images-container .wave-line-blue {
+  bottom: 0;
+  right: 29%;
+}
+
+.architects-images-container .wave-line-green {
+  bottom: 200px;
+  right: 0;
+}
+
+.stick-btns-container {
+  float: right;
+  z-index: +2;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  right:0;
+}
+
+.stick-btns-container .contact-stick-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  overflow: hidden;
+  position: sticky;
+  width: 90px;
+  padding: 5px 5px;
+  gap: 15px;
+  border-radius: 44px 44px 44px 44px;
+  z-index: -1;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+  color: #fff;
+}
+
+.stick-btns-container .contact-stick-btn:hover {
+  width: 250px;
+  background-color: #1780CE;
+}
+
+.stick-btns-container .contact-stick-btn span {
+  width: 128px;
+  text-align: center;
+
+}
+
+.stick-btns-container .contact-stick-btn:hover svg rect {
+  fill: #fff;
+}
+
+.stick-btns-container .contact-stick-btn:hover svg path {
+  fill: #1780CE;
+}
+
+.stick-btns-container .pdf-stick-btn {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  overflow: hidden;
+  position: sticky;
+  width: 90px;
+  padding: 5px 5px;
+  gap: 15px;
+  border-radius: 44px 44px 44px 44px;
+  z-index: -1;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 15px;
+  color: #fff;
+}
+
+.stick-btns-container .pdf-stick-btn:hover {
+  width: 250px;
+  background-color: #45C76F;
+}
+
+.stick-btns-container .pdf-stick-btn span {
+  width: 128px;
+  text-align: center;
+
+}
+
+.stick-btns-container .pdf-stick-btn:hover svg .pdf-react1 {
+  fill: #fff;
+}
+.stick-btns-container .pdf-stick-btn:hover svg circle {
+  fill: #fff;
+}
+.stick-btns-container .pdf-stick-btn:hover svg g path {
+  fill: #45C76F;
+}
+
+.stick-btns-container .pdf-stick-btn:hover svg .pdf-react2 {
+  fill: #45C76F;
+}
+
 /*######################################## 
 ######### Architects Section ############
 ##########################################*/
