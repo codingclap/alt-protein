@@ -717,22 +717,21 @@
 
 
 
+
     <script>
         const positionSpan = document.getElementById('position');
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             let sticky_btn = document.querySelector('.stick-btns-container');
-            if(window.pageYOffset >=930){
-                
-                sticky_btn.style.visibility="visible";
+            if (window.pageYOffset >= 930) {
+
+                sticky_btn.style.visibility = "visible";
                 console.log(sticky_btn);
-            }else{
-                sticky_btn.style.visibility="hidden";
+            } else {
+                sticky_btn.style.visibility = "hidden";
             }
-        });
-    
-
-
-</script>
+        }); 
+    </script>
+ 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -764,6 +763,7 @@
     </script>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 
 </html>
