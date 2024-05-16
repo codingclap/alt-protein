@@ -265,6 +265,67 @@
   }
 }
 
+@media(max-width:768px){
+  .challenges-items.child-1 {
+    border-left: 0px solid #A4A4A4;
+  }
+  
+  .challenges-items.child-1:after {
+    background-image:none; 
+  }
+  
+  .challenges-items.child-2 {
+    border-left: 0px solid #A4A4A4;
+    border-right: 0px solid #A4A4A4; 
+  }
+  
+  .challenges-items.child-2:after {
+    background-image:none; 
+  }
+  
+  .challenges-items.child-3 {
+    border-right: 0px solid #A4A4A4; 
+    position: relative;
+  }
+  
+  .challenges-items.child-3:after {
+    background-image:none; 
+  }
+  
+   
+  
+  .challenges-items.child-5 {
+    border-left: 0px solid #A4A4A4; 
+    border-bottom: 1px solid #A4A4A4;
+  }
+  
+  .challenges-items.child-5:before {
+    background-image:none; 
+  }
+  
+  .challenges-items.child-5:after { 
+    background-image:none; 
+  }
+  
+  .challenges-items.child-6 {
+    border-bottom: 1px solid #A4A4A4;
+    border-right: 0px solid #A4A4A4;
+    border-left: 0px solid #A4A4A4;
+  }
+  
+  .challenges-items.child-7 {
+    border-bottom: 1px solid #A4A4A4;
+    border-right: 0px solid #A4A4A4; 
+  }
+  
+  .challenges-items.child-7:before {
+    background-image: none;
+  }
+  
+  .challenges-items.child-7:after { 
+    background-image: none;
+  }
+}
 /*######################################## 
 ######### Challenges Section ############
 ##########################################*/
