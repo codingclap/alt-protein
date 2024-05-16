@@ -98,11 +98,26 @@
 [data-color="txt-green"] {
     color: #45C76F;
 }
+
 [data-color="black-1"] {
     color: #363636;
 }
+
 [data-color="black-2"] {
     color: #666666;
+}
+
+[data-color="blue"] {
+    color: #1780CE;
+}
+
+
+[data-bgcolor="txt-green"] {
+    background-color: #45C76F;
+}
+
+[data-bgcolor="blue"] {
+    background-color: #1780CE;
 }
 
 /******** Colors ************/
@@ -127,37 +142,50 @@
 [data-line-height="2.1"] {
     line-height: 2.1em;
 }
+
 /***********  Line Height ********/
 
 
 /***********  Font size ********/
+[data-font-size="13px"] {
+    font-size: 13px;
+}
 [data-font-size="14px"] {
     font-size: 14px;
 }
+
 [data-font-size="16px"] {
     font-size: 16px;
 }
+
 [data-font-size="18px"] {
     font-size: 18px;
 }
+
 [data-font-size="19px"] {
     font-size: 19px;
 }
+
 [data-font-size="20px"] {
     font-size: 20px;
 }
+
 [data-font-size="21px"] {
     font-size: 21px;
 }
+
 [data-font-size="22px"] {
     font-size: 22px;
 }
+
 [data-font-size="23px"] {
     font-size: 23px;
 }
+
 [data-font-size="24px"] {
     font-size: 24px;
 }
+
 [data-font-size="25px"] {
     font-size: 25px;
 }
@@ -165,26 +193,31 @@
 [data-font-size="26px"] {
     font-size: 26px;
 }
+
 [data-font-size="27px"] {
     font-size: 27px;
 }
+
 [data-font-size="28px"] {
     font-size: 28px;
 }
+
 [data-font-size="29px"] {
     font-size: 29px;
 }
+
 [data-font-size="30px"] {
     font-size: 30px;
 }
 
 /***********  Font size ********/
- 
+
 [data-width="600"] {
     max-width: 600px;
- }
+}
+
 [data-width="700"] {
-   max-width: 700px;
+    max-width: 700px;
 }
 
 [data-width="1100"] {
@@ -211,15 +244,22 @@
     border: 0;
     font-size: 16px;
 }
- h1,h2,h3,h4,h5,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     margin-bottom: 0px;
- }
+}
+
 .container-fluid {
     max-width: 1800px;
 }
 
-section{
-    margin:0 auto;
+section {
+    margin: 0 auto;
     max-width: 1920px;
     padding: 5em 0em;
 }

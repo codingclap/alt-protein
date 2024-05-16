@@ -317,8 +317,9 @@
   color: #45c76f;
   transition: all 0.3s ease-in-out;
 }
-.read-more-btn:hover .read-image{
-  animation:arrowmove 0.5s ease-in-out;
+
+.read-more-btn:hover .read-image {
+  animation: arrowmove 0.5s ease-in-out;
 }
 
 .read-more-btn:hover .read-image path {
@@ -327,13 +328,54 @@
 }
 
 @keyframes arrowmove {
-  100%{ transform: translateX(-1px);}
-  60%{transform: translateX(-5px);}
-  40%{transform: translateX(-10px);}
-  20%{transform: translateX(-13px);}
-  0%{transform: translateX(0px);}
+  100% {
+    transform: translateX(-1px);
+  }
+
+  60% {
+    transform: translateX(-5px);
+  }
+
+  40% {
+    transform: translateX(-10px);
+  }
+
+  20% {
+    transform: translateX(-13px);
+  }
+
+  0% {
+    transform: translateX(0px);
+  }
 }
 
 /*######################################## 
 ######### Solution Section ############
+##########################################*/
+
+
+/*######################################## 
+######### Architects Section ############
+##########################################*/
+
+.architects {
+  background-color: #F5F5F5;
+  min-height: 800px;
+}
+
+.architects-images-container .architects-image { 
+  border-radius: 150px;
+  padding: 4em 0px 0px 0px;
+  min-height: 580px;
+  width: 100%;
+  max-width: 250px;
+}
+.architects-image:nth-child(2){
+  top:3em;
+}
+.architects-images-container .architects-image img{
+  border-radius: 150px;
+}
+/*######################################## 
+######### Architects Section ############
 ##########################################*/
