@@ -716,11 +716,37 @@
 
 
         <!----------- Blogs Section ----------->
-        <section id="blogs" class="blogs">
-            <div class="container py-5">
+        <section id="blogs" class="blogs position-relative">
 
-                <div class="row align-items-center justify-content-center gap-2 gap-md-5">
+            <style>
+                
+                .bg-elements3 .element1 {
+                    top: 400px;
+                    width: 100%;
+                    width: 450px;
+                }
 
+                .bg-elements3 .element2 {
+                    top: 120px;
+                    right: 80px;
+                    width: 100%;
+                    width: 150px;
+                }
+                .bg-elements3 .element3 { 
+                    right: 0px;
+                    width: 100%;
+                    width: 350px;
+                    bottom: 0px;
+                }
+            </style>
+            <div class="bg-elements3 w-100">
+                <img class="element1 position-absolute" src="assets/images/blog-bg-1.png" alt="">
+                <img class="element2 position-absolute" src="assets/images/blog-bg-2.png" alt="">
+                <img class="element3 position-absolute" src="assets/images/blog-bg-3.png" alt="">
+            </div>
+            
+            <div class="container py-0 py-md-5">
+                <div class="row align-items-center justify-content-center gap-2 gap-md-4">
                     <div class="col-11 col-lg-5">
                         <p font-family="OpenSans-SemiBold" data-color="txt-green" data-font-size="20px">Our Blogs</p>
                         <h2 class="display-5 text-start" data-color="black-1" font-family="Barlow-Bold">
@@ -735,7 +761,7 @@
 
                 </div>
 
-                <div class="row blogAssetContainer align-items-start justify-content-center gap-5 mt-5">
+                <div class="row blogAssetContainer align-items-start justify-content-center gap-2 gap-md-4 mt-5">
                     <div class="col-11 col-lg-5">
                         <div class="row">
                             <div class="col-12 columnShadow">
@@ -754,7 +780,8 @@
                                                     font-family="OpenSans-Regular">Topic Text</p>
                                             </div>
                                         </div>
-                                        <h4 class="py-2" data-font-size="18px" font-family="OpenSans-SemiBold" data-color="black-1">
+                                        <h4 class="py-2" data-font-size="18px" font-family="OpenSans-SemiBold"
+                                            data-color="black-1">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                         <p data-font-size="14px" font-family="OpenSans-Regular" data-color="black-2">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut purus id
@@ -788,8 +815,9 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <h4 class="py-1" data-font-size="16px" font-family="OpenSans-SemiBold"
-                                                        data-color="black-1">Lorem ipsum dolor sit amet, consectetur
+                                                    <h4 class="py-1" data-font-size="16px"
+                                                        font-family="OpenSans-SemiBold" data-color="black-1">Lorem ipsum
+                                                        dolor sit amet, consectetur
                                                         adipiscing elit.</h4>
                                                     <p data-font-size="14px" font-family="OpenSans-Regular"
                                                         data-color="black-2">Lorem ipsum dolor sit amet, consectetur
@@ -819,8 +847,9 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <h4 class="py-1" data-font-size="16px" font-family="OpenSans-SemiBold"
-                                                        data-color="black-1">Lorem ipsum dolor sit amet, consectetur
+                                                    <h4 class="py-1" data-font-size="16px"
+                                                        font-family="OpenSans-SemiBold" data-color="black-1">Lorem ipsum
+                                                        dolor sit amet, consectetur
                                                         adipiscing elit.</h4>
                                                     <p data-font-size="14px" font-family="OpenSans-Regular"
                                                         data-color="black-2">Lorem ipsum dolor sit amet, consectetur
@@ -850,8 +879,9 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <h4 class="py-1" data-font-size="16px" font-family="OpenSans-SemiBold"
-                                                        data-color="black-1">Lorem ipsum dolor sit amet, consectetur
+                                                    <h4 class="py-1" data-font-size="16px"
+                                                        font-family="OpenSans-SemiBold" data-color="black-1">Lorem ipsum
+                                                        dolor sit amet, consectetur
                                                         adipiscing elit.</h4>
                                                     <p data-font-size="14px" font-family="OpenSans-Regular"
                                                         data-color="black-2">Lorem ipsum dolor sit amet, consectetur
@@ -867,6 +897,12 @@
 
                     </div>
                 </div>
+
+                <div class="d-flex justify-content-center pt-5 mt-4">
+                    <button custom-button="button" font-family="OpenSans-Regular" type="submit">Read More</button>
+                </div>
+
+
             </div>
         </section>
 
