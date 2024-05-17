@@ -110,7 +110,9 @@
 [data-color="blue"] {
     color: #1780CE;
 }
-
+[data-color="red"] {
+    color: #348C4F;
+}
 
 [data-bgcolor="txt-green"] {
     background-color: #45C76F;
