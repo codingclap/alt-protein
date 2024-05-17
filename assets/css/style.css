@@ -600,14 +600,14 @@
     bottom: 0px;
     left: 0;
     max-width: 440px;
-
+    opacity: 0.5;
   }
 
   .architects-images-container .wave-line-green {
     bottom: 300px;
     right: 0;
     max-width: 330px;
-
+    opacity: 0.5;
   }
 
   .architects-images-container .architects-image {
