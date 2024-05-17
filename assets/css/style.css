@@ -439,10 +439,11 @@
   width: 100%;
   max-width: 250px;
   z-index: +1;
+  position: relative;
 }
 
-.architects-image:nth-child(2) {
-  top: 4em;
+.architects-image:last-of-type {
+  top: 4em !important;
 }
 
 .architects-images-container .architects-image img {
@@ -452,11 +453,15 @@
 .architects-images-container .wave-line-blue {
   bottom: 0;
   right: 29%;
+  max-width: 600px;
+  width: 100%;
 }
 
 .architects-images-container .wave-line-green {
-  bottom: 200px;
+  bottom: 100px;
   right: 0;
+  max-width: 600px;
+  width: 100%;
 }
 
 .stick-btns-container {
@@ -467,7 +472,7 @@
   justify-content: center;
   align-items: end;
   flex-direction: column;
-  right:0;
+  right: 0;
 }
 
 .stick-btns-container .contact-stick-btn {
@@ -539,9 +544,11 @@
 .stick-btns-container .pdf-stick-btn:hover svg .pdf-react1 {
   fill: #fff;
 }
+
 .stick-btns-container .pdf-stick-btn:hover svg circle {
   fill: #fff;
 }
+
 .stick-btns-container .pdf-stick-btn:hover svg g path {
   fill: #45C76F;
 }
@@ -549,6 +556,66 @@
 .stick-btns-container .pdf-stick-btn:hover svg .pdf-react2 {
   fill: #45C76F;
 }
+
+@media(max-width:1600px) {
+  .architects-images-container .wave-line-blue {
+    bottom: 100px;
+    right: 29%;
+    max-width: 500px;
+
+  }
+
+  .architects-images-container .wave-line-green {
+    bottom: 300px;
+    right: 0;
+    max-width: 500px;
+
+  }
+}
+
+@media(max-width:1199px) {
+  .architects-images-container .architects-image {
+    min-height: 525px;
+  }
+}
+
+@media(max-width:1200px) {
+  .architects-images-container .wave-line-blue {
+    bottom: 100px;
+    right: 28%;
+    max-width: 440px;
+
+  }
+
+  .architects-images-container .wave-line-green {
+    bottom: 400px;
+    right: 0;
+    max-width: 330px;
+
+  }
+}
+
+@media(max-width:991px) {
+  .architects-images-container .wave-line-blue {
+    bottom: 0px;
+    left: 0;
+    max-width: 440px;
+
+  }
+
+  .architects-images-container .wave-line-green {
+    bottom: 300px;
+    right: 0;
+    max-width: 330px;
+
+  }
+
+  .architects-images-container .architects-image {
+    min-height: 430px;
+  }
+}
+
+
 
 /*######################################## 
 ######### Architects Section ############
