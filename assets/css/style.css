@@ -272,6 +272,7 @@
 
   .challenges-items.child-1:after {
     background-image: none;
+    display: none;
   }
 
   .challenges-items.child-2 {
@@ -281,6 +282,7 @@
 
   .challenges-items.child-2:after {
     background-image: none;
+    display: none;
   }
 
   .challenges-items.child-3 {
@@ -290,6 +292,7 @@
 
   .challenges-items.child-3:after {
     background-image: none;
+    display: none;
   }
 
 
@@ -301,10 +304,12 @@
 
   .challenges-items.child-5:before {
     background-image: none;
+    display: none;
   }
 
   .challenges-items.child-5:after {
     background-image: none;
+    display: none;
   }
 
   .challenges-items.child-6 {
@@ -320,10 +325,12 @@
 
   .challenges-items.child-7:before {
     background-image: none;
+    display: none;
   }
 
   .challenges-items.child-7:after {
     background-image: none;
+    display: none;
   }
 }
 
