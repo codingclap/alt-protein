@@ -484,7 +484,7 @@
   width: 90px;
   padding: 5px 5px;
   gap: 15px;
-  margin-top:10px;
+  margin-top: 10px;
   border-radius: 44px 44px 44px 44px;
   z-index: -1;
   opacity: 1;
@@ -588,6 +588,32 @@
 
   }
 
+  .stick-btns-container .pdf-stick-btn svg {
+    width: 70px;
+    height: 68px;
+  }
+
+  .stick-btns-container .contact-stick-btn svg {
+    width: 70px;
+    height: 68px;
+  }
+
+  .stick-btns-container .pdf-stick-btn:hover {
+    width: 230px;
+  }
+
+  .stick-btns-container .contact-stick-btn:hover {
+    width: 220px;
+  }
+
+  .stick-btns-container .pdf-stick-btn {
+    width: 70px;
+  }
+
+  .stick-btns-container .contact-stick-btn {
+    width: 70px;
+  }
+
   .architects-images-container .wave-line-green {
     bottom: 400px;
     right: 0;
@@ -602,6 +628,16 @@
     left: 0;
     max-width: 440px;
     opacity: 0.5;
+  }
+
+  .stick-btns-container .pdf-stick-btn svg {
+    width: 60px;
+    height: 58px;
+  }
+
+  .stick-btns-container .contact-stick-btn svg {
+    width: 60px;
+    height: 58px;
   }
 
   .architects-images-container .wave-line-green {
@@ -764,42 +800,47 @@
 ##########################################*/
 .faq .accordion-body {
   background-color: #F1F1F1;
-  border-radius:0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
   color: #626262;
-  font-family: 'OpenSans-SemiBold';  
+  font-family: 'OpenSans-SemiBold';
   font-size: 16px;
   padding: 35px 30px;
 }
 
-.faq .accordion-item{
-  margin-top:15px;
+.faq .accordion-item {
+  margin-top: 15px;
 }
 
-.faq .accordion-button{
+.faq .accordion-button {
   color: #626262;
   font-family: 'OpenSans-Bold';
   background-color: #F1F1F1;
-  box-shadow:none; 
-  border-radius:5px 5px 0px 0px;
+  box-shadow: none;
+  border-radius: 5px 5px 0px 0px;
   font-size: 16px;
 }
-.accordion-button.collapsed{
-  border-radius:5px;
+
+.accordion-button.collapsed {
+  border-radius: 5px;
 }
-.accordion-button:not(.collapsed){
-  color:#fff;
-  background-color: #45C76F!important;
-  box-shadow:none;
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #45C76F !important;
+  box-shadow: none;
 }
-.accordion-button::after{
-  background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNyAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTMuNSIgY3k9IjE0LjE2MDIiIHI9IjEzLjUiIGZpbGw9IiM0NUM3NkYiLz4KPHBhdGggZD0iTTEzLjUgMTguMDU4MUMxMy4zNDg5IDE4LjA1ODEgMTMuMTk3NiAxOC4wMDU5IDEzLjA4MjMgMTcuOTAxOEw3LjE3MzE3IDEyLjU3MDNDNi45NDIyOCAxMi4zNjIgNi45NDIyOCAxMi4wMjQ2IDcuMTczMTcgMTEuODE2NEM3LjQwNDA3IDExLjYwODIgNy43Nzc5NyAxMS42MDgxIDguMDA4NzIgMTEuODE2NEwxMy41IDE2Ljc3MUwxOC45OTEzIDExLjgxNjRDMTkuMjIyMiAxMS42MDgxIDE5LjU5NjEgMTEuNjA4MSAxOS44MjY5IDExLjgxNjRDMjAuMDU3NiAxMi4wMjQ3IDIwLjA1NzggMTIuMzYyMSAxOS44MjY5IDEyLjU3MDNMMTMuOTE3OCAxNy45MDE4QzEzLjgwMjQgMTguMDA1OSAxMy42NTEyIDE4LjA1ODEgMTMuNSAxOC4wNTgxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNyAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTMuNSIgY3k9IjE0LjE2MDIiIHI9IjEzLjUiIGZpbGw9IiM0NUM3NkYiLz4KPHBhdGggZD0iTTEzLjUgMTguMDU4MUMxMy4zNDg5IDE4LjA1ODEgMTMuMTk3NiAxOC4wMDU5IDEzLjA4MjMgMTcuOTAxOEw3LjE3MzE3IDEyLjU3MDNDNi45NDIyOCAxMi4zNjIgNi45NDIyOCAxMi4wMjQ2IDcuMTczMTcgMTEuODE2NEM3LjQwNDA3IDExLjYwODIgNy43Nzc5NyAxMS42MDgxIDguMDA4NzIgMTEuODE2NEwxMy41IDE2Ljc3MUwxOC45OTEzIDExLjgxNjRDMTkuMjIyMiAxMS42MDgxIDE5LjU5NjEgMTEuNjA4MSAxOS44MjY5IDExLjgxNjRDMjAuMDU3NiAxMi4wMjQ3IDIwLjA1NzggMTIuMzYyMSAxOS44MjY5IDEyLjU3MDNMMTMuOTE3OCAxNy45MDE4QzEzLjgwMjQgMTguMDA1OSAxMy42NTEyIDE4LjA1ODEgMTMuNSAxOC4wNTgxWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
   background-size: contain;
   height: 30px;
-  width:30px;
+  width: 30px;
 }
-.accordion-button:not(.collapsed)::after{
-  background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNyAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTMuNSIgY3k9IjE0LjE2MDIiIHI9IjEzLjUiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMy41IDEwLjY2MDJDMTMuMzQ4OSAxMC42NjAyIDEzLjE5NzYgMTAuNzEyMyAxMy4wODIzIDEwLjgxNjRMNy4xNzMxNyAxNi4xNDhDNi45NDIyOCAxNi4zNTYzIDYuOTQyMjggMTYuNjkzNyA3LjE3MzE3IDE2LjkwMTlDNy40MDQwNyAxNy4xMTAxIDcuNzc3OTcgMTcuMTEwMiA4LjAwODcyIDE2LjkwMTlMMTMuNSAxMS45NDcyTDE4Ljk5MTMgMTYuOTAxOUMxOS4yMjIyIDE3LjExMDIgMTkuNTk2MSAxNy4xMTAyIDE5LjgyNjkgMTYuOTAxOUMyMC4wNTc2IDE2LjY5MzUgMjAuMDU3OCAxNi4zNTYyIDE5LjgyNjkgMTYuMTQ4TDEzLjkxNzggMTAuODE2NEMxMy44MDI0IDEwLjcxMjMgMTMuNjUxMiAxMC42NjAyIDEzLjUgMTAuNjYwMloiIGZpbGw9IiM0NUM3NkYiLz4KPC9zdmc+Cg=="); 
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyNyAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTMuNSIgY3k9IjE0LjE2MDIiIHI9IjEzLjUiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMy41IDEwLjY2MDJDMTMuMzQ4OSAxMC42NjAyIDEzLjE5NzYgMTAuNzEyMyAxMy4wODIzIDEwLjgxNjRMNy4xNzMxNyAxNi4xNDhDNi45NDIyOCAxNi4zNTYzIDYuOTQyMjggMTYuNjkzNyA3LjE3MzE3IDE2LjkwMTlDNy40MDQwNyAxNy4xMTAxIDcuNzc3OTcgMTcuMTEwMiA4LjAwODcyIDE2LjkwMTlMMTMuNSAxMS45NDcyTDE4Ljk5MTMgMTYuOTAxOUMxOS4yMjIyIDE3LjExMDIgMTkuNTk2MSAxNy4xMTAyIDE5LjgyNjkgMTYuOTAxOUMyMC4wNTc2IDE2LjY5MzUgMjAuMDU3OCAxNi4zNTYyIDE5LjgyNjkgMTYuMTQ4TDEzLjkxNzggMTAuODE2NEMxMy44MDI0IDEwLjcxMjMgMTMuNjUxMiAxMC42NjAyIDEzLjUgMTAuNjYwMloiIGZpbGw9IiM0NUM3NkYiLz4KPC9zdmc+Cg==");
 }
+
 /*######################################## 
 ######### Faq Section ############
 ##########################################*/
@@ -807,49 +848,55 @@
 /*######################################## 
 ######### Contact Section ############
 ##########################################*/
-.contactUs{
+.contactUs {
   background-color: #E1EEE1;
-  height: 100vh;
+  min-height: 1024px;
 }
 
-.contactUs .greenBox{
-  position:absolute;
+.contactUs .greenBox {
+  position: absolute;
   background-color: #45C76F;
-  max-height: 650px;
-  width: 100%; 
-  top:0;
-  border-radius: 0px 0px 750px 750px; 
+  max-height: 768px;
+  width: 100%;
+  top: 0;
+  border-radius: 0px 0px 750px 750px;
 }
 
-.contactUs .greenBox-form{ 
-  width: 100%;  
-   
+.contactUs .greenBox-form {
+  width: 100%;
+
 }
-.form-control { 
+
+.form-control {
   padding: .600rem .75rem;
-  border-color:#C7C7C7;
+  border-color: #C7C7C7;
 }
-.form-elements{
-  position: relative; 
-  width: 100%; 
-  max-width: 600px; 
+
+.form-elements {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
   min-height: 500px;
   margin: 0 auto;
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0px 4px 7px 0px #868282;
   padding: 60px;
+  z-index: 1;
 }
-.form-elements textarea{
-  border-color:#C7C7C7;
+
+.form-elements textarea {
+  border-color: #C7C7C7;
   border-radius: 6px;
 }
-.form-elements label{
+
+.form-elements label {
   font-family: 'OpenSans-Regular';
   font-size: 14px;
-  color:#666666;
+  color: #666666;
   padding-bottom: 5px;
 }
+
 .form-control:focus {
   color: #212529;
   background-color: #fff;
@@ -857,6 +904,38 @@
   outline: 0;
   box-shadow: 0 0 0 .25rem #45c76e00;
 }
+
+.form-elements-1 {
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  max-width: 550px;
+}
+
+.form-elements-2 {
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  max-width: 300px;
+}
+
+@media(max-width:1200px) {
+  .contactUs {
+    background-color: #E1EEE1;
+    min-height: 1200px;
+  }
+
+  .form-elements-1 {
+
+    max-width: 300px;
+  }
+
+  .form-elements-2 {
+
+    max-width: 200px;
+  }
+}
+
 /*######################################## 
 ######### Contact Section ############
 ##########################################*/
