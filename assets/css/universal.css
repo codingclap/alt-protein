@@ -110,6 +110,7 @@
 [data-color="blue"] {
     color: #1780CE;
 }
+
 [data-color="red"] {
     color: #348C4F;
 }
@@ -152,8 +153,13 @@
 [data-font-size="13px"] {
     font-size: 13px;
 }
+
 [data-font-size="14px"] {
     font-size: 14px;
+}
+
+[data-font-size="15px"] {
+    font-size: 15px;
 }
 
 [data-font-size="16px"] {
@@ -254,10 +260,25 @@ h4,
 h5,
 p {
     margin-bottom: 0px;
+    line-height: 1.5em;
 }
 
 .container-fluid {
     max-width: 1800px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+ul li a:hover {
+    color: #666666;
 }
 
 section {

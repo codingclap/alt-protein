@@ -466,7 +466,7 @@
 
 .stick-btns-container {
   float: right;
-  z-index: +2;
+  z-index: +3;
   margin-right: 10px;
   display: flex;
   justify-content: center;
@@ -607,11 +607,11 @@
   }
 
   .stick-btns-container .pdf-stick-btn {
-    width: 70px;
+    width: 80px;
   }
 
   .stick-btns-container .contact-stick-btn {
-    width: 70px;
+    width: 80px;
   }
 
   .architects-images-container .wave-line-green {
@@ -938,4 +938,146 @@
 
 /*######################################## 
 ######### Contact Section ############
+##########################################*/
+
+
+
+/*######################################## 
+######### Footer Section ############
+##########################################*/
+.footer .footer-upper .upper ul {
+  padding: 15px 0px;
+}
+
+.footer .footer-upper .upper:nth-child(1) {
+  width: 100%;
+  max-width: 250px;
+}
+
+.footer .footer-upper .upper:nth-child(2) {
+  width: 100%;
+  max-width: 220px;
+}
+
+.footer .footer-upper .upper:nth-child(3) {
+  width: 100%;
+  max-width: 350px;
+}
+
+.footer .footer-upper .upper:nth-child(4) {
+  width: 100%;
+  max-width: 280px;
+}
+
+.footer .footer-upper .upper:nth-child(5) {
+  width: 100%;
+  max-width: 220px;
+}
+
+
+.footerSubscribe .custom-search {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 0 0 0;
+}
+
+.footerSubscribe .custom-search-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  background: #F1F1F1;
+  padding: 20px 150px 20px 25px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.footerSubscribe .custom-search-botton {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  bottom: 8px;
+  border: 0;
+  background: #45C76F;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 25px;
+  border-radius: 100px;
+  z-index: 2;
+  font-size: 16px;
+}
+
+@media(max-width:1200px) {
+  .footerSubscribe .custom-search-botton {
+    padding: 0 16px;
+    font-size: 14px;
+  }
+
+  .footerSubscribe .custom-search-input {
+    padding: 20px 115px 20px 18px;
+  }
+  
+}
+
+@media (max-width:1100px) {
+  .footer .footer-upper {
+    flex-wrap: wrap;
+  }
+  .footer .footer-upper .upper:nth-child(1) { 
+    max-width: 300px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(2) { 
+    max-width: 300px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(3) { 
+    max-width: 300px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(4) { 
+    max-width: 300px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(5) { 
+    max-width: 300px;
+  }
+}
+@media (max-width:991px) {
+  
+  .footer .footer-upper .upper:nth-child(1) { 
+    max-width: 200px;
+    min-width: 250px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(2) { 
+    max-width: 200px;
+    min-width: 250px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(3) { 
+    max-width: 200px;
+    min-width: 250px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(4) { 
+    max-width: 200px;
+    min-width: 250px;
+  }
+  
+  .footer .footer-upper .upper:nth-child(5) { 
+    max-width: 200px;
+    min-width: 250px;
+  }
+}
+@media(max-width:767px) {
+  .footerSubscribe .custom-search {
+    margin: 10px auto 40px auto;
+  }
+}
+
+/*######################################## 
+######### Footer Section ############
 ##########################################*/
