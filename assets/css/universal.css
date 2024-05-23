@@ -106,8 +106,13 @@
 [data-color="black-2"] {
     color: #666666;
 }
+
 [data-color="black-3"] {
     color: #98A2B3;
+}
+
+[data-color="black-4"] {
+    color: #626262;
 }
 
 [data-color="blue"] {
@@ -273,7 +278,7 @@ p {
 ul {
     list-style-type: none;
     padding: 10px 0px;
-    margin:0px;
+    margin: 0px;
 }
 
 ul li a {

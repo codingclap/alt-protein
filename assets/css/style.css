@@ -1,3 +1,31 @@
+.dropdown-menu {
+  padding: 20px 10px;
+  box-shadow: 0px 0px 9px 1px #62626226;
+}
+
+.navbar-toggler-icons:nth-child(1) {
+  display: block;
+  width: 35px;
+  height: 2px;
+ background-color: #363636;
+}
+.navbar-toggler-icons:nth-child(2){
+  display: block;
+  width: 35px;
+  height: 2px; 
+  margin-top:8px;
+  background-color: #363636;
+}
+.navbar-toggler-icons:nth-child(3){
+  display: block;
+  width: 35px;
+  height: 2px;
+  margin-top:8px;
+  background-color: #363636;
+}
+
+ 
+
 /*#################################### 
 ###########  Home Banner #############
 ####################################*/
@@ -1018,72 +1046,77 @@
   .footerSubscribe .custom-search-input {
     padding: 20px 115px 20px 18px;
   }
-  
+
 }
 
 @media (max-width:1100px) {
   .footer .footer-upper {
     flex-wrap: wrap;
   }
-  .footer .footer-upper .upper:nth-child(1) { 
+
+  .footer .footer-upper .upper:nth-child(1) {
     max-width: 300px;
   }
-  
-  .footer .footer-upper .upper:nth-child(2) { 
+
+  .footer .footer-upper .upper:nth-child(2) {
     max-width: 300px;
   }
-  
-  .footer .footer-upper .upper:nth-child(3) { 
+
+  .footer .footer-upper .upper:nth-child(3) {
     max-width: 300px;
   }
-  
-  .footer .footer-upper .upper:nth-child(4) { 
+
+  .footer .footer-upper .upper:nth-child(4) {
     max-width: 300px;
   }
-  
-  .footer .footer-upper .upper:nth-child(5) { 
+
+  .footer .footer-upper .upper:nth-child(5) {
     max-width: 300px;
   }
 }
+
 @media (max-width:991px) {
-  
-  .footer .footer-upper .upper:nth-child(1) { 
+
+  .footer .footer-upper .upper:nth-child(1) {
     max-width: 200px;
     min-width: 250px;
   }
-  
-  .footer .footer-upper .upper:nth-child(2) { 
+
+  .footer .footer-upper .upper:nth-child(2) {
     max-width: 200px;
     min-width: 250px;
   }
-  
-  .footer .footer-upper .upper:nth-child(3) { 
+
+  .footer .footer-upper .upper:nth-child(3) {
     max-width: 200px;
     min-width: 250px;
   }
-  
-  .footer .footer-upper .upper:nth-child(4) { 
+
+  .footer .footer-upper .upper:nth-child(4) {
     max-width: 200px;
     min-width: 250px;
   }
-  
-  .footer .footer-upper .upper:nth-child(5) { 
+
+  .footer .footer-upper .upper:nth-child(5) {
     max-width: 200px;
     min-width: 250px;
   }
 }
+
 @media(max-width:767px) {
   .footerSubscribe .custom-search {
     margin: 10px auto 40px auto;
   }
- 
+
 }
+
 @media(max-width:500px) {
-   
-  .form-elements{
-    padding:60px 40px;
+
+  .form-elements {
+    padding: 60px 40px;
   }
 }
+
 /*######################################## 
 ######### Footer Section ############
 ##########################################*/
