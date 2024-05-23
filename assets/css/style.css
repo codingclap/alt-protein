@@ -1076,8 +1076,14 @@
   .footerSubscribe .custom-search {
     margin: 10px auto 40px auto;
   }
+ 
 }
-
+@media(max-width:500px) {
+   
+  .form-elements{
+    padding:60px 40px;
+  }
+}
 /*######################################## 
 ######### Footer Section ############
 ##########################################*/
