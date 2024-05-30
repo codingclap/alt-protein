@@ -252,13 +252,22 @@
 }
 
 [custom-button="button"] {
-    width: 150px;
+    width: 100%;
+    max-width: 150px;
+    min-width: 135px;
     background-color: #1780CE;
     height: 45px;
     border-radius: 25px;
     color: #fff;
     border: 0;
     font-size: 16px;
+    transition: all 0.1s ease-in-out;
+}
+
+[custom-button="button"]:hover {
+    background-color: #45C76F;
+    color: #fff;
+    transition: all 0.1s ease-in-out;
 }
 
 h1,

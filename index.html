@@ -14,6 +14,11 @@
 </head>
 
 <body>
+    <style>
+        .dropdown-menu[data-bs-popper] {
+            margin-top: 1em;
+        }
+    </style>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #fff;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -27,7 +32,7 @@
                 <span class="navbar-toggler-icons"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center gap-2 gap-lg-5">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 w-100 justify-content-center">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,21 +49,85 @@
 
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Research Insights</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Research Insights</a>
+                        <div class="dropdown-menu border-0" aria-labelledby="researchDropdown">
+                            <ul>
+                                <li><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Vision for the Future</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Benefits</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Tension Points</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Industry Alignment</a></li>
+
+                            </ul>
+
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> Challenges & Opportunities</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="challengesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"> Challenges & Opportunities</a>
+                        <div class="dropdown-menu border-0" aria-labelledby="challengesDropdown">
+                            <ul>
+                                <li><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Alt Protein Exceptionalism</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Caught Between Food and Tech</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Mixed Impacts of Venture Capital
+                                        Model</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Challenges of Impact Measurement</a>
+                                </li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">The Focus on Price Parity</a>
+                                </li>
+                            </ul>
+
+                        </div>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Solutions</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="solutionDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Solutions</a>
+                        <div class="dropdown-menu border-0" aria-labelledby="solutionDropdown">
+                            <ul>
+                                <li><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">For the Alt Protein Industry</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Government and Policy Support</a>
+                                </li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Investor Actions</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Advocacy and Education</a></li>
+                            </ul>
+
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News & Resources</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="newsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">News & Resources</a>
+                        <div class="dropdown-menu border-0" aria-labelledby="newsDropdown">
+                            <ul>
+                                <li><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Download the Report</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Research and Reports</a>
+                                </li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Educational Materials</a></li>
+                                <li class="pt-2"><a class="dropdown-item" href="#" font-family="OpenSans-Regular"
+                                        data-color="black-4" data-font-size="14px">Field Notes</a></li>
+                            </ul>
+
+                        </div>
                     </li>
                 </ul>
-                <div class="d-flex">
+                <div class="d-flex w-100" style="max-width: 150px;">
                     <button custom-button="button" font-family="OpenSans-Regular" type="submit">Get a Quote</button>
                 </div>
             </div>
@@ -1542,7 +1611,7 @@
     </script>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-     
+
 </body>
 
 </html>
