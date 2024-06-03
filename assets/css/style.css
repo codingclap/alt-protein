@@ -1,3 +1,4 @@
+
 .dropdown-menu {
   padding: 20px 10px;
   box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
@@ -522,7 +523,7 @@
 
 .stick-btns-container {
   float: right;
-  z-index: +3;
+  z-index: +4;
   margin-right: 10px;
   display: flex;
   justify-content: center;
@@ -887,7 +888,8 @@
   background-color: #F1F1F1;
   box-shadow: none;
   border-radius: 5px 5px 0px 0px;
-  font-size: 16px;
+  font-size: 16px; 
+  line-height: 1.5em;
 }
 
 .accordion-button.collapsed {
