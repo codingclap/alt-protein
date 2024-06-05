@@ -1561,11 +1561,51 @@
 
     </section>
 
-
+<style>
+    .bars{
+        transition:all 0.3s ease-in-out;
+    }
+    .bar-1{
+        height: 0px!important;
+        transition:all 0.3s ease-in-out;
+    }
+    .bar-2{
+        margin-top: 0px!important;
+        transform: rotate(37deg);
+        transition:all 0.3s ease-in-out;
+    }
+    .bar-3{
+        margin-top: -2px!important;
+        transform: rotate(322deg);
+        transition:all 0.3s ease-in-out;
+    }
+</style>
 
 
 
     <script>
+        const navBars = document.querySelector('.navbar-toggler');
+        navBars.addEventListener('click', () => {
+            let eleOne = document.querySelector('.navbar-toggler-icons:nth-child(1)');
+            let eleTwo = document.querySelector('.navbar-toggler-icons:nth-child(2)');
+            let eleThree = document.querySelector('.navbar-toggler-icons:nth-child(3)');
+
+            if (eleTwo.classList.contains('bar-2')) {
+                eleOne.classList.add("bars");
+                eleTwo.classList.add("bars");
+                eleThree.classList.add("bars"); 
+                eleOne.classList.remove("bar-1");
+                eleTwo.classList.remove("bar-2");
+                eleThree.classList.remove("bar-3"); 
+            } else {
+                eleOne.classList.add("bar-1");
+                eleTwo.classList.add("bar-2");
+                eleThree.classList.add("bar-3"); 
+            }
+            console.log(eleOne);
+        });
+
+
         const positionSpan = document.getElementById('position');
         window.addEventListener('scroll', function () {
             let sticky_btn = document.querySelector('.stick-btns-container');
