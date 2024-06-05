@@ -47,7 +47,23 @@
 .navbar-brand{
   margin-right:0px;
 }
-
+.bars{
+  transition:all 0.3s ease-in-out;
+}
+.bar-1{
+  height: 0px!important;
+  transition:all 0.3s ease-in-out;
+}
+.bar-2{
+  margin-top: 0px!important;
+  transform: rotate(37deg);
+  transition:all 0.3s ease-in-out;
+}
+.bar-3{
+  margin-top: -2px!important;
+  transform: rotate(322deg);
+  transition:all 0.3s ease-in-out;
+}
 /*#################################### 
 ###########  Home Banner #############
 ####################################*/
